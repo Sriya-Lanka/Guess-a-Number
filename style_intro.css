@@ -1,0 +1,75 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"); /* Load the bold variant */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2d3a4a;
+  margin: 0; /* Remove default body margin */
+}
+
+.wrapper {
+  width: 100%; /* Take full width */
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(242, 242, 242, 0.9); /* Slightly grayish tint matching the background */
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  font-size: 26px; /* Decreased font size a bit more */
+  font-weight: 700; /* Increased font weight to bold */
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 1em; /* Decreased font size a bit more */
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.scroll-down {
+  margin-top: 30px;
+}
+
+.creators-heading,
+.development-heading {
+  font-size: 1.1em; /* Decreased font size a bit more */
+  margin-bottom: 10px;
+  color: #555;
+  margin-top: 20px; /* Added space before the headings */
+}
+
+.development-heading {
+  list-style-type: none; /* Remove dot pointers for the development section */
+}
+
+.start-game-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1em; /* Decreased font size a bit more */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-game-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
